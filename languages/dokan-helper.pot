@@ -1,0 +1,131 @@
+# Copyright (C) 2021 Alamgir
+# This file is distributed under the GPL2.
+msgid ""
+msgstr ""
+"Project-Id-Version: Dokan Helper 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wedevs.com/contact/\n"
+"POT-Creation-Date: 2021-08-27 05:21:14+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2021-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Country: United States\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_"
+"attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: grunt-wp-i18n1.0.0\n"
+
+#: includes/Admin/Admin.php:30
+msgid "Test Menu"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Dokan Helper"
+msgstr ""
+
+#: includes/Admin/Menus.php:63 includes/Admin/SettingsFields.php:23
+msgid "Dashboard"
+msgstr ""
+
+#: includes/Admin/Menus.php:64 includes/Admin/Menus.php:100
+msgid "Settings"
+msgstr ""
+
+#: includes/Admin/Menus.php:79
+msgid "Dokan Helper Settings"
+msgstr ""
+
+#: includes/Admin/SettingsFields.php:28
+msgid "General Options"
+msgstr ""
+
+#: includes/Admin/SettingsFields.php:49
+msgid "Test Select Field"
+msgstr ""
+
+#: includes/Admin/SettingsFields.php:50
+msgid ""
+"Select <strong>Yes</strong> if you want to make compatible dokan_helper "
+"custom fields data with advanced custom fields."
+msgstr ""
+
+#: includes/Admin/SettingsFields.php:54
+msgid "Yes"
+msgstr ""
+
+#: includes/Admin/SettingsFields.php:55
+msgid "No"
+msgstr ""
+
+#: includes/Admin/SettingsFields.php:60
+msgid "Test Text Field"
+msgstr ""
+
+#: includes/Admin/SettingsFields.php:61
+msgid ""
+"<a target=\"_blank\" href=\"https://www.google.com/recaptcha/\">Register "
+"here</a> to get reCaptcha Site and Secret keys."
+msgstr ""
+
+#: includes/Admin/SettingsFields.php:65
+msgid "Custom CSS codes"
+msgstr ""
+
+#: includes/Admin/SettingsFields.php:66
+msgid ""
+"If you want to add your custom CSS code, it will be added on page header "
+"wrapped with style tag"
+msgstr ""
+
+#: includes/Admin/SettingsFields.php:75
+msgid "Unauthorized Message"
+msgstr ""
+
+#: includes/Admin/SettingsFields.php:76
+msgid "Not logged in users will see this message"
+msgstr ""
+
+#: includes/Admin/SettingsFields.php:384
+msgid "Choose File"
+msgstr ""
+
+#: includes/Assets.php:86
+msgid "Hello World! This is admin scripts"
+msgstr ""
+
+#: includes/Assets.php:101
+msgid "Hello World! This is frontend scripts"
+msgstr ""
+
+#: templates/admin-content.php:2
+msgid "Hello World!"
+msgstr ""
+
+#: templates/admin-notice.php:2
+msgid "Test Notice"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://github.com/alamgircsebd/dokan-helper"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Dokan Helper Plugin for Developers"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Alamgir"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://github.com/alamgircsebd"
+msgstr ""

@@ -20,11 +20,24 @@ class ComposerStaticInite59e153731823c8eb6ce2cc3d133729f
         ),
     );
 
+    public static $classMap = array (
+        'Alamgir\\DokanHelper\\Admin\\Admin' => __DIR__ . '/../..' . '/includes/Admin/Admin.php',
+        'Alamgir\\DokanHelper\\Admin\\Menus' => __DIR__ . '/../..' . '/includes/Admin/Menus.php',
+        'Alamgir\\DokanHelper\\Admin\\Settings' => __DIR__ . '/../..' . '/includes/Admin/Settings.php',
+        'Alamgir\\DokanHelper\\Admin\\SettingsFields' => __DIR__ . '/../..' . '/includes/Admin/SettingsFields.php',
+        'Alamgir\\DokanHelper\\Ajax' => __DIR__ . '/../..' . '/includes/Ajax.php',
+        'Alamgir\\DokanHelper\\Assets' => __DIR__ . '/../..' . '/includes/Assets.php',
+        'Alamgir\\DokanHelper\\Install\\Installer' => __DIR__ . '/../..' . '/includes/Install/Installer.php',
+        'Alamgir\\DokanHelper\\REST\\DemoRestApi' => __DIR__ . '/../..' . '/includes/REST/DemoRestApi.php',
+        'Alamgir\\DokanHelper\\REST\\Manager' => __DIR__ . '/../..' . '/includes/REST/Manager.php',
+    );
+
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
             $loader->prefixLengthsPsr4 = ComposerStaticInite59e153731823c8eb6ce2cc3d133729f::$prefixLengthsPsr4;
             $loader->prefixDirsPsr4 = ComposerStaticInite59e153731823c8eb6ce2cc3d133729f::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInite59e153731823c8eb6ce2cc3d133729f::$classMap;
 
         }, null, ClassLoader::class);
     }

@@ -1,6 +1,6 @@
-# WP Demo Plugin #
+# Dokan Helper #
 **Contributors:** [alamgircsebd](https://profiles.wordpress.org/alamgircsebd)  
-**Tags:** demo-plugin  
+**Tags:** dokan-helper  
 **Requires at least:** 4.4  
 **Tested up to:** 5.5.3  
 **Requires PHP:** 5.6  
@@ -8,17 +8,17 @@
 **License:** GPLv2 or later  
 **License URI:** http://www.gnu.org/licenses/gpl-2.0.html  
 
-WP Demo Plugin WordPress Plugin
+Dokan Helper WordPress Plugin for Dokan Developers
 
 ## Description ##
 
-A WP Plugin is a help full plugin for wordpress......
+Dokan Helper have some debugs functions which can help to develop the dokan plugin.
 
 ### Basic Features ###
 
-* Feature #1
-* Feature #2
-* Feature #3
+* Debug functions
+* Indicate action and filter hooks
+* Documentation link with related features
 
 ### Author ###
 
@@ -30,16 +30,7 @@ Extract the zip file and just drop the contents in the wp-content/plugins/ direc
 
 ## Frequently Asked Questions ##
 
-### Q. Question number one? ###
-A.  Yes
-
-### Q. Question number two? ###
-A.  No
-
-### Q. Question number three? ###
-A.  Yes
-
-### Q. Question number four? ###
+### Q. Is this plugin required dokan plugins? ###
 A.  Yes
 
 ## Screenshots ##
@@ -50,7 +41,7 @@ A.  Yes
 
 ## Changelog ##
 
-### v1.0.0 -> 5 April, 2021 ###
+### v1.0.0 -> 27 August, 2021 ###
 
 Initial version released
 

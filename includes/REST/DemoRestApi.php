@@ -1,6 +1,6 @@
 <?php
 
-namespace Alamgir\DemoPlugin\REST;
+namespace Alamgir\DokanHelper\REST;
 
 use WP_REST_Controller;
 use WP_REST_Server;

@@ -30,7 +30,7 @@ class Manager {
 
         $this->class_map = apply_filters(
             'wp_demo_plugin_rest_api_class_map', array(
-                WP_DEMO_PLUGIN_DIR . '/includes/REST/DemoRestApi.php' => 'Alamgir\DokanHelper\REST\DemoRestApi',
+                DOKAN_HELPER_DIR . '/includes/REST/DemoRestApi.php' => 'Alamgir\DokanHelper\REST\DemoRestApi',
             )
         );
 
